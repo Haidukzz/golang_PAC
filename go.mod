@@ -1,3 +1,3 @@
 module github.com/Haidukzz/golang_PAC
 
-go 1.24.1
+go 1.24.0

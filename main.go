@@ -6,7 +6,7 @@ import (
 	"text/template"
 )
 
-var temp = template.Must(template.ParseGlob("templates/*.html"))
+var temp = template.Must(template.ParseFiles("templates/index.html"))
 
 func main() {
 	port := os.Getenv("PORT")
